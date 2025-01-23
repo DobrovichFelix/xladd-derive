@@ -19,8 +19,7 @@ quote = "1"
 syn = {version = "1", features = ["full", "extra-traits"]}
 widestring = "0.4"
 winapi = {version = "0.3", features = ["oaidl", "combaseapi", "oleauto"]}
-#xladd = {path = "../xladd", features = ["use_ndarray"]}
-
+xladd = { path = "../xladd", features = ["use_ndarray"] }
 [lib]
 proc-macro = true
 
