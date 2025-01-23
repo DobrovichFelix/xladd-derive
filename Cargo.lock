@@ -212,11 +212,11 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "xladd"
 version = "0.4.2"
+source = "git+https://github.com/ronniec95/xladd#e27ee4745d3dbb3c57f6afe731c294b69f8d5098"
 dependencies = [
  "bincode",
  "lazy_static",
  "log",
- "ndarray",
  "serde",
  "serde_derive",
  "widestring",
@@ -237,8 +237,3 @@ dependencies = [
  "winapi",
  "xladd",
 ]
-
-[[patch.unused]]
-name = "xladd"
-version = "0.4.2"
-source = "git+https://github.com/ronniec95/xladd#e27ee4745d3dbb3c57f6afe731c294b69f8d5098"
